@@ -1,8 +1,12 @@
 # Cancer-Classification-Through-Dual-Channel-Feature-Engineering
 
 Dataset Type: External Test Set (Public) & Internal Test Set (Private).
+
 Abbreviation: H for Hematoxylin and E for Eosin.
+
 ROC: Receiver Operating Characteristic.
+
+Save all the files in one folder and run the code in jupyter notebook.
 
 The Repository performs a classification task using test datasets on the trained models. The AI techniques used in this study for binary classification (benign vs. malignant and low-grade vs. high-grade) are support vector machine (SVM), logistic regression (LR), bagging tree, boosting tree, and dual-channel bidirectional long short-term memory (DC-BiLSTM) network. 
 The regions of interest (ROIs) of H&E tissue samples extracted from whole slide images (WSIs) were used for generating the non-overlapping patches of size 64 × 64 pixels, and stain deconvolution technique was used to separate the Hematoxylin and Eosin channels.
