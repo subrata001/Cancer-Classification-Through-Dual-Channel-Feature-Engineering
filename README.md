@@ -8,7 +8,7 @@ ROC: Receiver Operating Characteristic.
 
 Save all the files in one folder and run the code in jupyter notebook.
 
-Private Dataset: https://zenodo.org/record/1485967#.X_0ue-gzZMs
+Public Dataset: https://zenodo.org/record/1485967#.X_0ue-gzZMs
 
 The Repository performs a classification task using test datasets on the trained models. The AI techniques used in this study for binary classification (benign vs. malignant and low-grade vs. high-grade) are support vector machine (SVM), logistic regression (LR), bagging tree, boosting tree, and dual-channel bidirectional long short-term memory (DC-BiLSTM) network. 
 The regions of interest (ROIs) of H&E tissue samples extracted from whole slide images (WSIs) were used for generating the non-overlapping patches of size 64 × 64 pixels, and stain deconvolution technique was used to separate the Hematoxylin and Eosin channels.
